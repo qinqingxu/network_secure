@@ -1,0 +1,29 @@
+{
+   "ISP" : [
+      {
+         "essentialInfo" : "Your ISP is",
+         "searchKey" : "Microsoft Corporation",
+         "webSite" : "https://www.whatismyisp.com/"
+      },
+      {
+         "essentialInfo" : "Your Organisation",
+         "searchKey" : "Microsoft Corporation",
+         "webSite" : "https://myip.ms/"
+      },
+      {
+         "essentialInfo" : "Internet Service Provider",
+         "searchKey" : "Microsoft Corporation",
+         "webSite" : "https://www.showmyip.com/"
+      }
+   ],
+   "proxy" : {
+      "proxyAddress" : "http://127.0.0.1",
+      "proxyPort" : 5000,
+      "useProxy" : false
+   },
+   "scanInterval" : 20000,
+   "sound" : {
+      "playSound" : false,
+      "soundFile" : "Alarm03.wav"
+   }
+}

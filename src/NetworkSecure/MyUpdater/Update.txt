@@ -1,0 +1,13 @@
+[Version]
+VersionID=1000
+
+[AddFiles]
+AddFilesLen=4
+AddFilesSrc1=http://www.jelllove.com/software/software.htm
+AddFilesDest1=html\software.htm
+AddFilesSrc2=http://www.jelllove.com/software/software.htm
+AddFilesDest2=software.htm
+AddFilesSrc3=http://www.jelllove.com/software/the%20one/PictrueDeal.rar
+AddFilesDest3=software\ilove\the one.exe
+AddFilesSrc4=http://www.jelllove.com/software/Chat%20Room/chatroom.rar
+AddFilesDest4=software\ilove\chat.exe
