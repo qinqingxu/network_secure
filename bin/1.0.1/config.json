@@ -21,7 +21,7 @@
       "proxyPort" : 5000,
       "useProxy" : false
    },
-   "scanInterval" : 60000,
+   "scanInterval" : 300000,
    "sound" : {
       "playSound" : true,
       "soundFile" : "Alarm03.wav"
