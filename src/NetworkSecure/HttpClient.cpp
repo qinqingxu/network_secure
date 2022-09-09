@@ -1,6 +1,6 @@
 ﻿#include "pch.h"
 #include "HttpClient.h"
-#include "curl/curl.h"
+#include <curl/curl.h>
 #include <vector>
 #include <string>
 #include <string.h>
@@ -19,7 +19,7 @@
 #include <io.h>
 #include <algorithm>
 using namespace std;
-#pragma comment(lib, "libcurl.dll.a" )
+//#pragma comment(lib, "libcurl.dll.a" )
 
 
 int curl_writer(char* data, size_t size, size_t nmemb, std::string* writerData)
@@ -89,7 +89,7 @@ bool HttpClient::GetHttpViaCURL(const char* URL, string& strContent, string& str
 	char error_buffer[CURL_ERROR_SIZE] = { 0 };
 
 	// Initialize CURL connection
-	if (!my_curl_init(conn, (char *)URL, error_buffer, strContent)) {
+	if (!my_curl_init(conn, (char*)URL, error_buffer, strContent)) {
 		strError = error_buffer;
 		if (conn != NULL)
 		{

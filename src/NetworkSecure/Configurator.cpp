@@ -3,15 +3,15 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-#include "json/json.h"
+#include <json/json.h>
 
 
 bool Configurator::ReadJsonFile(const char* fileName)
 {
-	
+
 	Json::Reader reader;
 	Json::Value root;
-	
+
 	ifstream fileStream(fileName, ios::binary);
 
 	if (!fileStream.is_open())

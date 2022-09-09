@@ -13,12 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="curl">
-      <UniqueIdentifier>{4e7543cb-7149-42c8-b3f1-b2681b223f9a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\json">
-      <UniqueIdentifier>{d916e519-4d7c-4df5-9d31-c42a90e0f0b6}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NetworkSecure.h">
@@ -45,33 +39,6 @@
     <ClInclude Include="Constant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="curl\curl.h">
-      <Filter>curl</Filter>
-    </ClInclude>
-    <ClInclude Include="curl\curlver.h">
-      <Filter>curl</Filter>
-    </ClInclude>
-    <ClInclude Include="curl\easy.h">
-      <Filter>curl</Filter>
-    </ClInclude>
-    <ClInclude Include="curl\mprintf.h">
-      <Filter>curl</Filter>
-    </ClInclude>
-    <ClInclude Include="curl\multi.h">
-      <Filter>curl</Filter>
-    </ClInclude>
-    <ClInclude Include="curl\stdcheaders.h">
-      <Filter>curl</Filter>
-    </ClInclude>
-    <ClInclude Include="curl\system.h">
-      <Filter>curl</Filter>
-    </ClInclude>
-    <ClInclude Include="curl\typecheck-gcc.h">
-      <Filter>curl</Filter>
-    </ClInclude>
-    <ClInclude Include="curl\urlapi.h">
-      <Filter>curl</Filter>
-    </ClInclude>
     <ClInclude Include="ISPObserver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -85,33 +52,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Configurator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="json\autolink.h">
-      <Filter>Header Files\json</Filter>
-    </ClInclude>
-    <ClInclude Include="json\config.h">
-      <Filter>Header Files\json</Filter>
-    </ClInclude>
-    <ClInclude Include="json\features.h">
-      <Filter>Header Files\json</Filter>
-    </ClInclude>
-    <ClInclude Include="json\forwards.h">
-      <Filter>Header Files\json</Filter>
-    </ClInclude>
-    <ClInclude Include="json\json.h">
-      <Filter>Header Files\json</Filter>
-    </ClInclude>
-    <ClInclude Include="json\reader.h">
-      <Filter>Header Files\json</Filter>
-    </ClInclude>
-    <ClInclude Include="json\value.h">
-      <Filter>Header Files\json</Filter>
-    </ClInclude>
-    <ClInclude Include="json\writer.h">
-      <Filter>Header Files\json</Filter>
-    </ClInclude>
-    <ClInclude Include="json_batchallocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AboutDlg.h">
@@ -149,15 +89,6 @@
     <ClCompile Include="Configurator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="json_reader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="json_value.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="json_writer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="AboutDlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -176,15 +107,6 @@
   <ItemGroup>
     <None Include="res\NetworkSecure.rc2">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="json_internalarray.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="json_internalmap.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="json_valueiterator.inl">
-      <Filter>Header Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
